@@ -6,13 +6,13 @@ exports[`Pruebas en <AddCategory /> debe de mostrarse correctamente 1`] = `
 >
   <p>
      
-    Hola mundo
      
   </p>
   <input
     onChange={[Function]}
+    placeholder="Buscar..."
     type="text"
-    value="Hola mundo"
+    value=""
   />
 </form>
 `;
