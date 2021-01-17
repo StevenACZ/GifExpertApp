@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types'
 
 const AddCategory = ( { setCategories } ) => {
-  const [inputValue, setInputValue] = useState('Hola mundo');
+  const [inputValue, setInputValue] = useState('');
 
   const handleInputChange = ( e ) => {
     setInputValue( e.target.value );
@@ -23,6 +23,7 @@ const AddCategory = ( { setCategories } ) => {
       <input 
         type="text"
         value={ inputValue }
+        placeholder="Buscar..."
         onChange={ handleInputChange }
       />
     </form>
